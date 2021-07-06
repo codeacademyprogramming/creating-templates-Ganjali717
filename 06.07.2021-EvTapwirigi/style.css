@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+body{
+    
+    background-color: #f1f1f1!important;
+}
+nav{
+    max-width: 100%;
+}
+nav .logo{
+    display: inline-block;
+    width: 120px;
+    background-color: rgb(244,67,54);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav .logo:hover{
+    background-color: gray;
+    color: black;
+}
+nav .fas{
+    margin-right: 6 px;
+}
+nav p{
+     display: inline-block;
+     font-size: 18px;
+}
+nav .list {
+    width: 50%;
+    display: inline;
+    margin-left: 10px;
+}
+nav .list ul{
+    display: inline-block;
+}
+nav .list ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+nav .list ul li:hover{
+    background-color: lightgray;
+}
+nav .book{
+    display: inline;
+    padding: 10px;
+    text-align: center;
+}
+nav .book:hover{
+    background-color: gray;
+}
+nav .book a{
+    float: right;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+header{
+    background-image: url(images/hotel.jpg);
+    max-width: 100%;
+    height: 820px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+header .hotel{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    
+}
+header .searchhotel{
+    width: 650px;
+    background-color: rgb(244,67,54);
+    padding: 15px;
+}
+header .fas{
+    display: inline;
+    font-size: 20px;
+    color: white;
+}
+header .hotelname{
+    display: inline-block;
+    color: white;
+}
+header .hotelforms{
+    width: 100%;
+    height: 220px;
+    background-color: white;
+}
+header .form1{
+    width: 110px;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+header .form1 .fas{
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+}
+header .form1 label{
+    display: inline-block;
+    font-size: 15px;
+}
+header .form1 input[type=datetime]{
+    width: 250%;
+    padding: 10px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+header .form2{
+    margin-left: 200px;
+    display: inline-block;
+}
+header .form2 .fas{
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+}
+header .form2 label{
+    display: inline-block;
+    font-size: 15px;
+}
+header .form2 input[type=datetime]{
+    width: 170%;
+    padding: 10px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+header .form3{
+    width: 110px;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+header .form3 .fas{
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+}
+header .form3 label{
+    display: inline-block;
+    font-size: 15px;
+}
+header .form3 input[type=number]{
+    width: 250%;
+    padding: 10px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+header .form4{
+    margin-left: 200px;
+    display: inline-block;
+}
+header .form4 .fas{
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+}
+header .form4 label{
+    display: inline-block;
+    font-size: 15px;
+}
+header .form4 input[type=number]{
+    width: 170%;
+    padding: 10px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+header .hotelforms button{
+    margin-left: 15px;
+    color: #fff;
+    background-color: #616161;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+header .hotelforms button .fas{
+    font-size: 15px;
+    margin-right: 10px;
+}
+header .hotelforms button:hover{
+    background-color: rgb(133, 133, 133);
+    color: black;
+}
+
+section.room{
+    width: 100%;
+    height: 850px;
+}
+section.room .rooms{
+  margin-left: 20px;
+}
+section.room .roomsforms{
+    width: 100%;
+    display: inline;    
+}
+
+section.room .form1{
+    width: 110px;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+section.room .form1 .fas{
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+}
+section.room .form1 label{
+    display: inline-block;
+    font-size: 15px;
+}
+section.room .form1 input[type=datetime]{
+    width: 250%;
+    padding: 10px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+section.room .form2{
+    margin-left: 200px;
+    display: inline-block;
+}
+section.room .form2 .fas{
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+}
+section.room .form2 label{
+    display: inline-block;
+    font-size: 15px;
+}
+section.room .form2 input[type=datetime]{
+    width: 170%;
+    padding: 10px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+section.room .form3{
+    width: 110px;
+    margin-left: 150px;
+    margin-top: 10px;
+    display: inline-block;
+}
+section.room .form3 .fas{
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+}
+section.room .form3 label{
+    display: inline-block;
+    font-size: 15px;
+}
+section.room .form3 input[type=number]{
+    width: 250%;
+    padding: 10px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+section.room .form4{
+    margin-left: 200px;
+    display: inline-block;
+}
+section.room .form4 .fas{
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+}
+section.room .form4 label{
+    display: inline-block;
+    font-size: 15px;
+}
+section.room .form4 input[type=number]{
+    width: 170%;
+    padding: 10px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+section.room .btnrooms{
+    width: 100px;
+    display: inline-block;
+    margin-left: 120px;
+}
+section.room .btnrooms .fas{
+    display: inline-block;
+    color: black;
+    font-size: 14px;
+    margin-left: 15px;
+}
+section.room .btnrooms label{
+    display: inline-block;
+    font-size: 15px;
+}
+section.room .btnrooms button{
+    width: 210px;
+    margin-left: 15px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    padding: 11px 60px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+}
+section.room .roomscatalog{
+    width: 100%;
+    height: 1000px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+section.room .roomscatalog img{
+    width: 480px;
+    height: 380px;
+}
+section.room .roomscatalog .single{
+      display: inline-block;
+      box-shadow: black;
+      margin-right: 10px;
+      
+}
+section.room .roomscatalog .double{
+    display: inline-block;
+    
+    margin-right: 10px;
+}
+section.room .roomscatalog .deluxe{
+     display: inline-block;
+}
+section.room .roomscatalog .singlecontain{
+    background-color: white;
+    padding: 10px;
+}
+section.room .roomscatalog .singlecontain .opacity{
+    opacity: 0.60;
+    margin-top: 15px;
+}
+section.room .roomscatalog .singlecontain p{
+    
+    margin-top: 15px;
+}
+section.room .roomscatalog .singlecontain button{
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 450px;
+    padding: 15px;
+    font-size: 15px;
+}
+section.room .roomsforms .btnrooms button:hover{
+    background-color: rgb(133, 133, 133);
+    color: black;
+}
+section.room .roomscatalog .singlecontain button:hover{
+    background-color: rgb(133, 133, 133);
+    color: black;
+}
+
+section.about{
+    width: 100%;
+    height: 500px;
+}
+section.about .abt{
+    width: 40%;
+    display: inline-block;
+    margin-left: 20px;
+}
+section.about .abt h4{
+    float: left;
+    display: inline-block;
+}
+section.about .abt p{
+    float: left;    
+    display: inline-block;
+}
+section.about .abtimg{
+    width: 100%;
+    display: inline;
+}
+section.about .abtimg img{
+    width: 55%;
+    float: right;
+    display: inline-block;
+    filter: grayscale(75%);
+}
+section.about .acceptcard{
+    margin-right: 8px;
+}   
+section.connect{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+section.connect .con{
+    margin-left: 150px;
+}
+section.connect .address{
+    width: 400px;
+    display: inline-block;
+}
+section.connect i{
+    color: #f44336!important;
+}
+section.connect p{
+    display: inline;
+}
+
+section.ourhotels{
+    
+    width: 100%;
+    height: 750px;
+}
+section.ourhotels .ourht{
+    margin-left: 20px;
+}
+section.ourhotels .ourhtimg{
+    width: 49%;
+    display: inline-block;  
+    margin-left: 20px;
+}
+section.ourhotels .ourhtimg span{
+    position:absolute;
+    left: 30px;
+    color: white;
+}
+section.ourhotels .ourhtimg2 span{
+    position:absolute;
+    right: 30px;
+    color: white;
+}
+section.ourhotels .ourhtimg2 .sp{
+    position:absolute;
+    right: 400px;
+    color: white;
+}
+section.ourhotels .ourhtimg img{
+    width: 700px;
+    height: 600px;
+    display: inline-block;
+}
+section.ourhotels .ourhtimg2{
+    display: inline-block;
+    width: 49%;
+    padding: 15px;
+
+}
+section.ourhotels .ourhtimg2 img{
+    
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+}
+
+section.getbest {
+    width: 100%;
+    height: 280px;
+    background-color: rgb(73, 73, 73);
+}
+section.getbest:hover{
+    background-color: black;
+}
+section.getbest .getbestext{
+    padding-top: 30px;
+    margin-left: 20px;
+    color: white;
+}
+section.getbest .getbestform{
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+section.getbest .getbestform input[type=email]{
+    width: 95%;
+    padding: 8px;
+}
+section.getbest .getbestform button{
+    background-color: #f44336;
+    border: none;
+    display: inline-block;
+    padding: 9px 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: whitesmoke;
+}
+section.getbest .getbestform button:hover{
+    background-color: lightgrey;
+    color: black;
+}
+
+section.contact{
+    width: 100%;
+    height: 500px;
+}
+section.contact .contactext{
+    padding: 20px;
+}
+section.contact .contactinfo{
+    margin-left: 15px;
+}
+section.contact .contactinfo i {
+    color: #f44336!important;
+    display: inline;
+    font-size: 15px;
+    margin-right: 10px;
+}
+section.contact .contactinfo p{
+    display: inline;
+    font-size: 15px;
+}
+section.contact .contactext p{
+    font-size: 15px;
+}
+section.contact .contactform{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+section.contact .contactform input{
+    width: 100%;
+
+    padding: 13px;
+    margin-bottom: 10px;
+}
+section.contact .contactform button{
+    width: 150px;
+    padding: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+section.contact .contactform button:hover{
+    background-color: rgb(133, 133, 133);
+    color: black;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer .foot{
+    padding-top: 100px;
+}
+footer .foot span{
+    font-size: 15px;
+}
+
